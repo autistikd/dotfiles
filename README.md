@@ -4,6 +4,7 @@ export VIMINIT='source ~/vimconf/.vimrc'
 
 alias vim='sudo vim'
 alias restart="sudo systemctl restart"
+alias status="sudo systemctl status"
 alias start="sudo systemctl start"
 alias stop="sudo systemctl stop"
 alias enable="sudo systemctl enable"
