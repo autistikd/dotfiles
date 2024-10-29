@@ -1,3 +1,3 @@
 .bashrc
 
-export VIMINIT='source ~/vim-config/.vimrc'
+export VIMINIT='source ~/vimconf/.vimrc'
