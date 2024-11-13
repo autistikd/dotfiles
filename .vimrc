@@ -1,5 +1,5 @@
 syntax on
 
 let mapleader = ","
-nnoremap <Leader>n A<CR>
-nnoremap <Leader>b G
+nnoremap <Leader>m :set number!<CR>
+nnoremap <Leader>n :set relativenumber!<CR>
