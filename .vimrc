@@ -1,5 +1,6 @@
 syntax on
 
-let mapleader = ","
+
+let mapleader = "\<Space>"
 nnoremap <Leader>m :set number!<CR>
 nnoremap <Leader>n :set relativenumber!<CR>
