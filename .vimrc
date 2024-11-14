@@ -1,6 +1,7 @@
 syntax on
+set number
 
+let mapleader =';'
 
-let mapleader = "\<Space>"
-nnoremap <Leader>m :set number!<CR>
-nnoremap <Leader>n :set relativenumber!<CR>
+nnoremap <Leader>m :set nonumber \| :set relativenumber!<CR>
+nnoremap <Leader>n :set norelativenumber \| :set number!<CR>
