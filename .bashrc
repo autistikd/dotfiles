@@ -1,5 +1,5 @@
 
-export VIMINIT='source ~/vimconf/.vimrc'
+export VIMINIT='source ~/.vimrc'
 
 alias vim='sudo vim'
 alias restart='sudo systemctl restart'
