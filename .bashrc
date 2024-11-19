@@ -17,7 +17,7 @@ alias update='sudo pacman -Suy'
 alias search='sudo pacman -Ss'
 
 
-alias install='sudo apt install'
+alias install='sudo apt install -y'
 alias remove='sudo apt remove'
 alias update='sudo apt update && sudo apt upgrade'
 
