@@ -2,6 +2,7 @@
 export VIMINIT='source ~/.vimrc'
 
 alias vim='sudo vim'
+alias ip='ip -c a'
 alias restart='sudo systemctl restart'
 alias status='sudo systemctl status'
 alias start='sudo systemctl start'
