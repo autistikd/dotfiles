@@ -10,6 +10,7 @@ alias enable='sudo systemctl enable'
 alias ..='cd ..'
 alias r='sudo reboot'
 alias q='exit'
+alias poweroff='sudo poweroff'
 
 alias install='sudo pacman -S'
 alias remove='sudo pacman -R'
