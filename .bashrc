@@ -13,14 +13,17 @@ export VIMINIT='source ~/.vimrc'
 # export VISUAL='vim'
 
 
-# Aliases
+# Aliases for all
 alias ip='ip -c a'
 alias l='ls'
 alias ll='ls -lha'
-alias ..='cd ..'
 alias r='sudo reboot'
 alias q='exit'
 alias poweroff='sudo poweroff'
+
+# Alias to show the date
+
+alias da='date "+%Y-%m-%d %A %T %Z"'
 
 # Alias's for archives
 alias mktar='tar -cvf'
@@ -30,23 +33,42 @@ alias untar='tar -xvf'
 alias unbz2='tar -xvjf'
 alias ungz='tar -xvzf'
 
+# Aliases change directory
+
+alias home='cd ~'
+alias cd..='cd ..'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
+# Aliases void
+
 alias install='sudo xbps-install'
 alias remove='sudo xbps-remove'
 alias update='sudo xbps-install -Suy'
 alias search='sudo xbps-query -Rs'
+
+# Aliases arch-based
 
 alias install='sudo pacman -S'
 alias remove='sudo pacman -R'
 alias update='sudo pacman -Suy'
 alias search='sudo pacman -Ss'
 
+# Aliases debian-based
+
 alias install='sudo apt install -y'
 alias remove='sudo apt remove'
 alias update='sudo apt update && sudo apt upgrade'
 
+# Aliases rhel-based
+
 alias install='sudo dnf install'
 alias remove='sudo dnf remove'
 alias update='sudo dnf update'
+
+# Aliases systemd
 
 alias restart='sudo systemctl restart'
 alias status='sudo systemctl status'
