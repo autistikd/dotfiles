@@ -2,15 +2,15 @@
 export VIMINIT='source ~/.vimrc'
 
 # Set environment
-export EDITOR='vim'
-export GREP_COLOR='1;36'
-export HISTCONTROL='ignoredups'
-export HISTSIZE=5000
-export HISTFILESIZE=5000
-export LSCOLORS='ExGxbEaECxxEhEhBaDaCaD'
-export PAGER='less'
-export TZ='America/New_York'
-export VISUAL='vim'
+# export EDITOR='vim'
+# export GREP_COLOR='1;36'
+# export HISTCONTROL='ignoredups'
+# export HISTSIZE=5000
+# export HISTFILESIZE=5000
+# export LSCOLORS='ExGxbEaECxxEhEhBaDaCaD'
+# export PAGER='less'
+# export TZ='America/New_York'
+# export VISUAL='vim'
 
 
 # Aliases
@@ -21,6 +21,14 @@ alias ..='cd ..'
 alias r='sudo reboot'
 alias q='exit'
 alias poweroff='sudo poweroff'
+
+# Alias's for archives
+alias mktar='tar -cvf'
+alias mkbz2='tar -cvjf'
+alias mkgz='tar -cvzf'
+alias untar='tar -xvf'
+alias unbz2='tar -xvjf'
+alias ungz='tar -xvzf'
 
 alias install='sudo xbps-install'
 alias remove='sudo xbps-remove'
