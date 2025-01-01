@@ -19,7 +19,7 @@ alias ip='ip -c a'
 alias l='ls'
 alias ll='ls -lha'
 alias r='sudo reboot'
-alias q='exit'
+alias :q='exit'
 alias poweroff='sudo poweroff'
 
 # Alias to show the date
