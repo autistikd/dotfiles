@@ -1,3 +1,4 @@
+PS1='{\u@\h \w}\\$ '
 
 export VIMINIT='source ~/.vimrc'
 
