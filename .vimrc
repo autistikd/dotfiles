@@ -1,5 +1,4 @@
 syntax on                                           " Highlight command
-set relativenumber                                  " Set relative numbers
 set autoindent			                                " Default to indenting files
 set backspace=indent,eol,start	                    " Backspace all characters
 set formatoptions-=t		                            " Don't add line-breaks for lines over 'textwidth' characters
