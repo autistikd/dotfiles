@@ -1,4 +1,4 @@
-PS1='{\u@\h \w}\\$ '
+PS1='{\[\e[38;5;160m\]\u\[\e[38;5;88;1m\]@\[\e[0;38;5;160m\]\h\[\e[0m\] \w}\\$ '
 
 export VIMINIT='source ~/.vimrc'
 
@@ -19,7 +19,7 @@ alias ip='ip -c a'
 alias l='ls'
 alias ll='ls -lha'
 alias r='sudo reboot'
-alias :q='exit'
+alias q='exit'
 alias poweroff='sudo poweroff'
 
 # Alias to show the date
