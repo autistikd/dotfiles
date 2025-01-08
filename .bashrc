@@ -1,3 +1,9 @@
+# .bashrc
+
+# If not rumning interactively, don't do anything
+
+[[ $- != *i* ]] && return
+
 PS1='{\[\e[38;5;160m\]\u\[\e[38;5;88;1m\]@\[\e[0;38;5;160m\]\h\[\e[0m\] \w}\\$ '
 PS1='{\[\e[1m\]@\[\e[0m\]\h \w}\\$ '
 
