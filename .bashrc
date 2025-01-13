@@ -92,7 +92,9 @@ alias .....='cd ../../../..'
 # alias update='sudo xbps-install -Suy'
 # alias search='sudo xbps-query -Rs'
 # alias orphan='sudo xbps-remove -onf'
+# alias orphanconfirm='sudo xbps-remove -of'
 # alias orphantotal='sudo xbps-remove -Onf'
+# alias orphantotalconfirm='sudo xbps-remove -Of'
 
 # Aliases arch-based
 
