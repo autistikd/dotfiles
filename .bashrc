@@ -55,34 +55,36 @@ alias .....='cd ../../../..'
 
 # Aliases void
 
-alias install='sudo xbps-install'
-alias remove='sudo xbps-remove'
-alias update='sudo xbps-install -Suy'
-alias search='sudo xbps-query -Rs'
+# alias install='sudo xbps-install'
+# alias remove='sudo xbps-remove'
+# alias update='sudo xbps-install -Suy'
+# alias search='sudo xbps-query -Rs'
+# alias orphan='sudo xbps-remove -onf'
+# alias orphantotal='sudo xbps-remove -Onf'
 
 # Aliases arch-based
 
-alias install='sudo pacman -S'
-alias remove='sudo pacman -R'
-alias update='sudo pacman -Suy'
-alias search='sudo pacman -Ss'
+# alias install='sudo pacman -S'
+# alias remove='sudo pacman -R'
+# alias update='sudo pacman -Suy'
+# alias search='sudo pacman -Ss'
 
 # Aliases debian-based
 
-alias install='sudo apt install -y'
-alias remove='sudo apt remove'
-alias update='sudo apt update && sudo apt upgrade'
+# alias install='sudo apt install -y'
+# alias remove='sudo apt remove'
+# alias update='sudo apt update && sudo apt upgrade'
 
 # Aliases rhel-based
 
-alias install='sudo dnf install'
-alias remove='sudo dnf remove'
-alias update='sudo dnf update'
+# alias install='sudo dnf install'
+# alias remove='sudo dnf remove'
+# alias update='sudo dnf update'
 
 # Aliases systemd
 
-alias restart='sudo systemctl restart'
-alias status='sudo systemctl status'
-alias start='sudo systemctl start'
-alias stop='sudo systemctl stop'
-alias enable='sudo systemctl enable'
+# alias restart='sudo systemctl restart'
+# alias status='sudo systemctl status'
+# alias start='sudo systemctl start'
+# alias stop='sudo systemctl stop'
+# alias enable='sudo systemctl enable'
