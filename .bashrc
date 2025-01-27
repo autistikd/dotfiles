@@ -11,28 +11,17 @@
 
 export VIMINIT='source ~/.vimrc'
 
-# Set environment
-# export EDITOR='vim'
-# export GREP_COLOR='1;36'
-# export HISTCONTROL='ignoredups'
-# export HISTSIZE=5000
-# export HISTFILESIZE=5000
-# export LSCOLORS='ExGxbEaECxxEhEhBaDaCaD'
-# export PAGER='less'
-# export TZ='America/New_York'
-# export VISUAL='vim'
-
-
 # Aliases for all
 
 alias ip='ip -c a'
-alias l='ls'
-alias ll='ls -lha'
+alias l='ls --color=auto'
+alias ll='ls -lha --color=auto'
 alias q='exit'
 alias r='sudo reboot'
 alias reboot='sudo reboot'
 alias p='sudo poweroff'
 alias poweroff='sudo poweroff'
+alias dns_alpine='sudo /etc/sv/dns_alpine/run'
 
 # Alias to show the date
 
@@ -123,3 +112,15 @@ alias .....='cd ../../../..'
 # alias start='sudo systemctl start'
 # alias stop='sudo systemctl stop'
 # alias enable='sudo systemctl enable'
+
+# Set environment
+
+# export EDITOR='vim'
+# export GREP_COLOR='1;36'
+# export HISTCONTROL='ignoredups'
+# export HISTSIZE=5000
+# export HISTFILESIZE=5000
+# export LSCOLORS='ExGxbEaECxxEhEhBaDaCaD'
+# export PAGER='less'
+# export TZ='America/New_York'
+# export VISUAL='vim'
