@@ -22,6 +22,9 @@ alias reboot='sudo reboot'
 alias p='sudo poweroff'
 alias poweroff='sudo poweroff'
 alias dns_alpine='sudo /etc/sv/dns_alpine/run'
+alias chech_resolv="cat /etc/resolv.conf"
+alias cpu='sudo ~/.cpu.sh'
+alias cpu_check='sudo cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor'
 
 # Alias to show the date
 
