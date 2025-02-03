@@ -16,7 +16,7 @@ export VIMINIT='source ~/.vimrc'
 alias ip='ip -c a'
 alias l='ls --color=auto'
 alias ll='ls -lha --color=auto'
-alias q='exit'
+alias :q='exit'
 alias r='sudo reboot'
 alias reboot='sudo reboot'
 alias p='sudo poweroff'
@@ -25,6 +25,8 @@ alias dns_alpine='sudo /etc/sv/dns_alpine/run'
 alias chech_resolv="cat /etc/resolv.conf"
 alias cpu='sudo ~/.cpu.sh'
 alias cpu_check='sudo cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor'
+alias help='man'
+alias quit='exit'
 
 # Alias to show the date
 
@@ -68,6 +70,12 @@ alias docker-clean=' \
   docker image prune -f ; \
   docker network prune -f ; \
   docker volume prune -f '
+
+# Bookmarks
+
+alias dl='cd ~/Downloads && ls -lA'
+alias doc='cd ~/Documents && ls -lA'
+alias tmp='cd ~/Temporary && ls -lA'
 
 # Aliases change directory
 
