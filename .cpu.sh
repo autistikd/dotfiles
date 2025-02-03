@@ -1,11 +1,15 @@
-#!/bin/sh
+#!/bin/bash
 
-# File to check
-FILE="/etc/resolv.conf"
-STRING="192.168.100.10"
+current_governor=$(cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor)
 
-if ! grep -q "$STRING" "$FILE"; then
-    sed -i '2i nameserver 192.168.100.10' "$FILE"
+if [ "$current_governor" == "ondemand" ]; then
+    echo "Switching to performance mode..."
+    sudo cpupower frequency-set --governor performance
+
+elif [ "$current_governor" == "performance" ]; then
+    echo "Switching to ondemand mode..."
+    sudo cpupower frequency-set --governor ondemand
+
+else
+    echo "Current governor is neither ondemand nor performance. It is $current_governor."
 fi
-
-exit 0
