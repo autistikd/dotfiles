@@ -12,5 +12,6 @@ set tabstop=8			                                  " Number of spaces <tab> count
 set textwidth=80		                                " 80 columns
 set title			                                      " Set the title
 set background=light                                " Light background is best
+set number                                          " set number
 
 iab <expr> me:: strftime("Author: autistik barn<cr>Date: %B %d, %Y<cr>License: MIT")
