@@ -7,7 +7,7 @@ LINE_COUNT=$(wc -l < "$FILE")
 
 if [ "$LINE_COUNT" -eq 1 ]; then
 	echo "nameserver 192.168.100.10" >> "$FILE"
-
+    exit 0
 else
 
 	if ! grep -q "$STRING" "$FILE"; then
