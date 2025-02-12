@@ -1,8 +1,8 @@
- polkit.addRule(function(action, subject) {
-    if (subject.user == "anon") {
-        if (action.id == "org.freedesktop.login1.power-off" ||
-            action.id == "org.freedesktop.login1.reboot") {
-            return polkit.Result.YES;
-        }
-    }
+polkit.addRule(function(action, subject) {
+	if (subject.user == "anon") {
+		if (action.id == "org.freedesktop.login1.power-off" ||
+			action.id == "org.freedesktop.login1.reboot") {
+			return polkit.Result.YES;
+		}
+	}
 });
